@@ -1,0 +1,25 @@
+# Ellipse parameters (center_x, center_y, width, height, angle in degrees)
+# Reproduce ellipses using matplotlib.patches.Ellipse(xy=(x, y), width=w, height=h, angle=a)
+
+1A_comp1: mean=(0.2223, 0.0901), width=0.4058, height=0.1626, angle=-152.83
+1A_comp3: mean=(-0.0362, -0.0349), width=0.4776, height=0.2875, angle=168.31
+1B_comp1: mean=(0.0572, -0.2706), width=0.5917, height=0.1821, angle=48.39
+1B_comp2: mean=(0.2198, -0.0126), width=0.7063, height=0.2175, angle=-151.94
+1C_comp1: mean=(-0.0171, -0.4208), width=0.5500, height=0.0925, angle=-136.46
+2A_comp1: mean=(-0.1363, -0.2969), width=0.8477, height=0.2094, angle=-138.03
+2B_comp1: mean=(-0.1623, -0.4960), width=0.7192, height=0.2250, angle=-136.37
+2C_comp1: mean=(-0.1790, -0.5753), width=0.4598, height=0.0780, angle=-135.77
+3A_comp1: mean=(-0.5546, -0.8427), width=0.6569, height=0.4289, angle=54.90
+3A_comp2: mean=(-0.9630, -1.0037), width=0.7690, height=0.1308, angle=-135.06
+3B_comp1: mean=(-0.4387, -0.8116), width=0.5855, height=0.1887, angle=-142.92
+1A_comp1: mean=(0.2223, 0.0901), width=0.4058, height=0.1626, angle=-152.83
+1A_comp3: mean=(-0.0362, -0.0349), width=0.4776, height=0.2875, angle=168.31
+1B_comp1: mean=(0.0572, -0.2706), width=0.5917, height=0.1821, angle=48.39
+1B_comp2: mean=(0.2198, -0.0126), width=0.7063, height=0.2175, angle=-151.94
+1C_comp1: mean=(-0.0171, -0.4208), width=0.5500, height=0.0925, angle=-136.46
+2A_comp1: mean=(-0.1363, -0.2969), width=0.8477, height=0.2094, angle=-138.03
+2B_comp1: mean=(-0.1623, -0.4960), width=0.7192, height=0.2250, angle=-136.37
+2C_comp1: mean=(-0.1790, -0.5753), width=0.4598, height=0.0780, angle=-135.77
+3A_comp1: mean=(-0.5546, -0.8427), width=0.6569, height=0.4289, angle=54.90
+3A_comp2: mean=(-0.9630, -1.0037), width=0.7690, height=0.1308, angle=-135.06
+3B_comp1: mean=(-0.4387, -0.8116), width=0.5855, height=0.1887, angle=-142.92
