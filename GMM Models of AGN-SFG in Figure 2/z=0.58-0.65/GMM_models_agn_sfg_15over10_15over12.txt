@@ -1,0 +1,8 @@
+# Ellipse parameters (center_x, center_y, width, height, angle in degrees)
+# Reproduce ellipses using matplotlib.patches.Ellipse(xy=(x, y), width=w, height=h, angle=a)
+
+AGN_comp1: mean=(-0.1287, 0.0098), width=0.1682, height=0.0899, angle=-165.61
+AGN_comp2: mean=(0.2039, 0.0867), width=0.3139, height=0.1347, angle=-151.38
+AGN_comp3: mean=(0.1298, -0.1029), width=0.9882, height=0.3110, angle=-135.05
+SFG_comp1: mean=(-0.0510, -0.4543), width=0.4295, height=0.0828, angle=-137.31
+SFG_comp2: mean=(0.0187, -0.3816), width=1.0395, height=0.1168, angle=-136.05
