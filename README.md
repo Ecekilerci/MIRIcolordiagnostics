@@ -12,4 +12,7 @@ Ellipse parameters are: center_x, center_y, width, height, angle in degrees
 # Reproduction of ellipses
 Ellipses can be reproduced using matplotlib.patches.Ellipse(xy=(x, y), width=w, height=h, angle=a)
 # Classification
-We suggest Mahalanobis Method for source classification. An example code is shown in GMM-Mahalanobis classification file.
+We suggest Mahalanobis Method for source classification. An example code is given in GMM-Mahalanobis classification file. 
+It can be applied as python classify_mahalanobis.py sources.txt ellipse_12over07_03_12over10_03.txt output_example.txt
+
+
