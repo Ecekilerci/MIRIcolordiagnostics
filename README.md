@@ -52,6 +52,12 @@ Mahalanobis_Distance → distance from ellipse center
 Class → AGN or SFG
 Uncertain → Yes if distance > threshold  (this means ID 4's SFG classification is not certain)
 
+# Plotting script
+The plotting script can be used to check if the sources fall into the GMM ellipses visually. 
+
+python plot_mahalanobis.py
+
+
 # Citation
 If you use this code or ellipse definitions, please cite: Kilerci et al. 2025
 # Citation
