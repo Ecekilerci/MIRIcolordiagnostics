@@ -9,6 +9,13 @@ y_err= np.abs((1 / np.log(10)) * np.sqrt((F18_err/F18)**2 + (F10_err/F10)**2))
 
 # Ellipse parameters 
 Ellipse parameters are: center_x, center_y, width, height, angle in degrees
+
+xy=(x, y) → ellipse center (mean)
+
+width=w, height=h → the 2σ ellipse axes lengths
+
+angle=a → rotation of the ellipse in degrees
+
 # Reproduction of ellipses
 Ellipses can be reproduced using matplotlib.patches.Ellipse(xy=(x, y), width=w, height=h, angle=a)
 # Classification
