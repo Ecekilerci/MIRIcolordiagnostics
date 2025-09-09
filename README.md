@@ -39,9 +39,13 @@ output_example.txt:
 ID   Mahalanobis_Distance   Class   Uncertain
 
 1    0.95   AGN   No
+
 2    1.20   AGN   No
+
 3    2.85   AGN   No
+
 4    3.25   SFG   Yes
+
 5    1.75   AGN   No
 
 Mahalanobis_Distance → distance from ellipse center
