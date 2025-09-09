@@ -14,5 +14,9 @@ Ellipses can be reproduced using matplotlib.patches.Ellipse(xy=(x, y), width=w, 
 # Classification
 We suggest Mahalanobis Method for source classification. An example code is given in GMM-Mahalanobis classification file. 
 It can be applied as python classify_mahalanobis.py sources.txt ellipse_12over07_03_12over10_03.txt output_example.txt
+# Citation
+If you use this code or ellipse definitions, please cite: Kilerci et al. 2025
+# Citation
+Ece Kilerci
 
 
