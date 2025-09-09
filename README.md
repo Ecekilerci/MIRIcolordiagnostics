@@ -18,25 +18,32 @@ angle=a → rotation of the ellipse in degrees
 
 # Reproduction of ellipses
 Ellipses can be reproduced using matplotlib.patches.Ellipse(xy=(x, y), width=w, height=h, angle=a)
+
 # Classification
-We suggest Mahalanobis Method for source classification. An example code is given in GMM-Mahalanobis classification file. 
+We suggest Mahalanobis Method for source classification. An example code is classify_mahalanobis.py
+
 It can be applied as: python classify_mahalanobis.py <sources_file> <ellipse_file> <output_file>
+
 python classify_mahalanobis.py sources.txt ellipse_12over07_03_12over10_03.txt output_example.txt
 
-source.txt
+source.txt:
+
 ID   F07   F07_err   F10   F10_err   F12   F12_err
 
 F07, F10, F12 → fluxes in the relevant IR bands in log units. 
 _err → 1σ flux errors
 ID → unique source ID
 
-output_example.txt
+output_example.txt:
+
 ID   Mahalanobis_Distance   Class   Uncertain
+
 1    0.95   AGN   No
 2    1.20   AGN   No
 3    2.85   AGN   No
 4    3.25   SFG   Yes
 5    1.75   AGN   No
+
 Mahalanobis_Distance → distance from ellipse center
 Class → AGN or SFG
 Uncertain → Yes if distance > threshold  (this means ID 4's SFG classification is not certain)
