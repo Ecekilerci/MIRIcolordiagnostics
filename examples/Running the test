@@ -1,0 +1,1 @@
+python classify_mahalanobis.py examples/sources.txt ellipses/ellipse_example.txt examples/output_example.txt
