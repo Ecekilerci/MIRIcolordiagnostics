@@ -59,8 +59,8 @@ python plot_mahalanobis.py
 
 
 # Citation
-If you use this code or ellipse definitions, please cite: Kilerci et al. 2025
+If you use this code or ellipse definitions, please cite: Kilerci et al. 2025, A&A, 704, A71. https://doi.org/10.1051/0004-6361/202554884
 # Citation
-Ece Kilerci
+Kilerci et al. 2025, A&A, 704, A71. https://doi.org/10.1051/0004-6361/202554884
 
 
